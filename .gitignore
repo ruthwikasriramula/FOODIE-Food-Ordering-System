@@ -1,0 +1,20 @@
+
+# React frontend
+node_modules/
+dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Spring Boot / Maven
+target/
+*.class
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.adsum/
