@@ -2,7 +2,6 @@ package com.foodordering.foodordering.controller;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +15,6 @@ import com.foodordering.foodordering.repository.DriverRepository;
 
 @RestController
 @RequestMapping("/api/drivers")
-@CrossOrigin(origins = "http://localhost:5173")
 public class DriverController {
 
     private final DriverRepository driverRepository;

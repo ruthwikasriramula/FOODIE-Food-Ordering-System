@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-const API = "http://localhost:8080/api";
+import { API_BASE as API } from "../config/api";
 
 function DriverDashboard({ setPage }) {
   const [drivers, setDrivers] = useState([]);

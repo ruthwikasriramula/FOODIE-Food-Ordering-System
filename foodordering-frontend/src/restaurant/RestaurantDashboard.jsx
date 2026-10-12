@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-const API_BASE = "http://localhost:8080/api";
+import { API_BASE } from "../config/api";
 
 function RestaurantDashboard() {
   const [restaurants, setRestaurants] = useState([]);

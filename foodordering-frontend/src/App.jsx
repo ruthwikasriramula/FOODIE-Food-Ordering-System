@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
+import { API_BASE } from "./config/api";
 import DriverDashboard from "./driver/DriverDashboard";
 
 /* =========================================================
    API
 ========================================================= */
 
-const API_BASE = "http://localhost:8080/api";
 
 /* =========================================================
    CATEGORIES

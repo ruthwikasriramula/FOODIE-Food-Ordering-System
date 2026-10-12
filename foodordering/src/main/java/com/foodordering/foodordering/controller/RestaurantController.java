@@ -2,7 +2,6 @@ package com.foodordering.foodordering.controller;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +15,6 @@ import com.foodordering.foodordering.repository.RestaurantRepository;
 
 @RestController
 @RequestMapping("/api/restaurants")
-@CrossOrigin(origins = "http://localhost:5173")
 public class RestaurantController {
 
     private final RestaurantRepository restaurantRepository;
